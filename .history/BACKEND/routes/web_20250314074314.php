@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\{UserController};
+use Http\Controllers\{UserController};
 use Inertia\Inertia;
 
 Route::get('/', function () {
